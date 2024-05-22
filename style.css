@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Satisfy&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+html, body{
+    overflow: hidden;
+    background-color: var(--color-4);
+}
+
+:root{
+    --primary-font: "Josefin Sans", sans-serif;
+    --secondary-font: "Satisfy", cursive;
+    --color-1: #424874;
+    --color-2: #A6B1E1;
+    --color-3: #DCD6F7;
+    --color-4: #F4EEFF;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--color-3);
+    /* position: fixed; */
+}
+
+.header-logo-wrapper{
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.header-logo-text {
+    text-transform: capitalize;
+  }
+
+.header-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-1);
+}
